@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Simpele Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            padding: 50px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welkom op mijn simpele website</h1>
+</header>
+
+<div class="container">
+    <p>Dit is een heel eenvoudige homepagina met alleen wat basisinformatie.</p>
+    <p>Je kunt deze pagina aanpassen zoals je wilt.</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Simpele Website</p>
+</footer>
+
+</body>
+</html>
